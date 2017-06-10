@@ -4,6 +4,15 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
+#nav-hr{
+  width:95%;
+  height:.5em;
+  color:#a0feba;
+  border:none;
+  background-color:#a0feba;
+  margin-left: 0px;
+}
+
 #nav-logo{
   height:90%;
   width:20%;
@@ -26,11 +35,12 @@ body{
 
 nav{
   width:75%;
-  height:10em;
+  height:10.5em;
   background-color: #ffffff;
   margin:auto;
   margin-bottom: 1%;
-}
+/*  border-top: 7.5px solid #a0feba;
+*/}
 
 #main-image-container{
   width:75%;
