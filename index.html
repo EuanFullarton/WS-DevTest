@@ -8,9 +8,21 @@
 </head>
 <body>
 
-  <nav>Nav section</nav>
+  <nav>
+    <img id='nav-logo' src='images/worx_logo.png' alt='logo'/>
+    <ul id='nav-list'>
+    <li class='nav-link'>HOME</li>
+    <li class='nav-link'>MY WORK</li>
+    <li class='nav-link'>SERVICES</li>
+    <li class='nav-link'>ABOUT US</li>
+    <li class='nav-link'>CONTACT</li>
+    </ul>
+  </nav>
   
-  <div id="main-image">Main image</div>
+  <div id="main-image-container">
+    <img class='main-image' src='images/main_img1.jpg' alt='main image'/>  
+  </div>
+  
   <h1>We do business well. That's why we have an awesome website like this.</h1>
   <hr id='section1-hr'/>
   
@@ -47,24 +59,29 @@
 
     <hr class='section2-hr'/>
 
-    <p>Small text under images</p>
+    <div id='portfolio-info-container'>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae quam justo. Aliquam vel sodales dui. Mauris a arcu dictum, molestie diam a, rhoncus tellus. Nam ullamcorper semper sodales. Praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae quam justo. Aliquam vel sodales dui. Mauris a arcu dictum, molestie diam a, rhoncus tellus. Nam ullamcorper semper sodales.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae quam justo. Aliquam vel sodales dui. Mauris a arcu dictum, molestie diam a, rhoncus tellus. Nam ullamcorper semper sodales. Praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+    <br/>
+    Mauris vitae quam justo. Aliquam vel sodales dui. Mauris a arcu dictum, molestie diam a, rhoncus tellus. Nam ullamcorper semper sodales.</p>
+    </div>
 
-    <input>Email box</input>
-    <button type='submit'>Join</button>
+    <input placeholder="Leave your email here"><button id='email-submit-btn' type='submit'>Join</button></input>
   </section>
   
   <footer>
+    <section id='footer-container'>
     <div class='footer-div'>
       <h3>Heading to go here</h3>
-      <p>Blah blah</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vitae quam justo. Aliquam vel sodales dui. Mauris a arcu dictum, molestie diam a, rhoncus tellus. Nam ullamcorper semper sodales. Praesent.</p>
     </div>
     <div class='footer-div'>
       <h3>Contact us</h3>
       <ul>
-        <li>P</li>
-        <li>E</li>
-        <li>W</li>
-        <li>P</li>
+        <li>P | (03) 9302 9220</li>
+        <li>E | info@emailtogohere.com</li>
+        <li>W | www.yoursitehere.com</li>
+        <li>P | 53 Your Street to go here</li>
       </ul>
     </div>
     <div class='footer-div'>
@@ -73,6 +90,7 @@
       <button class='social button'>w</button>
       <button class='social button'>t</button>
     </div>
+    </section>
   </footer>
 
 </body>
