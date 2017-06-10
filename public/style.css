@@ -50,3 +50,11 @@ h3 {
   line-height: 2em;
   display:inline-block
 }
+
+.learn-more-btn{
+  width:33%;
+  height: 3em;
+  text-align: center;
+  background-color: #a0feba;
+  border-radius: 5px;
+}
