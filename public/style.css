@@ -1,0 +1,52 @@
+body{
+  width:100%;
+  background-color: #e8e9e8;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  width:75%;
+  height:10em;
+  background-color: #ffffff;
+  margin:auto;
+  margin-bottom: 1%;
+}
+
+#main-image{
+  width:75%;
+  height:20em;
+  background-color: salmon;
+  margin:auto;
+}
+
+h1 {
+  font-size:1.75em;
+  margin-top:3%;
+  margin-left:12.5%;
+  width:38%;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+#h1-hr {
+  width:75%;
+  height:.25em;
+  color:#000000;
+  background-color:#000000;
+}
+
+#info-section{
+  width:75%;
+  height:15em;
+  margin:auto;
+}
+
+.info-div{
+  width:33%;
+  height:10em;
+  font-size: .75em;
+  line-height: 2em;
+  display:inline-block
+}
