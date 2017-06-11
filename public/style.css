@@ -18,6 +18,17 @@ body{
   width:20%;
 }
 
+#search-bar{
+  margin-top:1%;
+  margin-left:35%;
+  height:2em;
+  width:20%;
+  position: absolute;
+  border-radius: 15px;
+  font-family: Arial, FontAwesome;
+  opacity: 0.5;
+}
+
 #nav-list{
   float:right;
   margin-top:12.5%;
