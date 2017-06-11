@@ -1,5 +1,7 @@
 var app = function (){
 
+  document.body.style.zoom="100%"
+
   this.ImgView = new ImgView();
 
   var mainImageToDisplay = document.getElementById('main-img1');
