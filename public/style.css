@@ -39,12 +39,11 @@ nav{
   background-color: #ffffff;
   margin:auto;
   margin-bottom: 1%;
-/*  border-top: 7.5px solid #a0feba;
-*/}
+}
 
 #main-image-container{
   width:75%;
-  height:25em;
+  height:30em;
   margin:auto;
 }
 
@@ -52,6 +51,16 @@ nav{
   width:99%;
   height:99%;
   border:5px solid #ffffff;
+  margin-bottom: -5%;
+  display:block;
+}
+
+.main-img-btn{
+  border-radius: 15px;
+  background-color: white;
+  margin-left:48%;
+  margin-right:-48%;
+  display: inline-block;
 }
 
 h1 {
