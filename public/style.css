@@ -43,8 +43,9 @@ nav{
 
 #main-image-container{
   width:75%;
-  height:30em;
+  height:31em;
   margin:auto;
+  box-shadow: 0px 5px 5px #888888;
 }
 
 .main-image{
@@ -144,6 +145,7 @@ h2{
   width:12%;
   display:inline-block;
   border:.5px solid #ededed;
+  box-shadow: 0px 5px 5px #888888;
 }
 
 #portfolio-info-container{
