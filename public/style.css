@@ -48,11 +48,14 @@ nav{
 }
 
 .main-image{
-  width:99%;
-  height:99%;
+  width:74.25%;
+  height:70%;
   border:5px solid #ffffff;
   margin-bottom: -5%;
-  display:block;
+  position:absolute;
+  transition: 1s ease;
+  opacity: 0;
+  z-index: 5;
 }
 
 .main-img-btn{
@@ -60,7 +63,10 @@ nav{
   background-color: white;
   margin-left:48%;
   margin-right:-48%;
+  margin-top:55%;
   display: inline-block;
+  z-index: 0;
+  position:relative;
 }
 
 h1 {
