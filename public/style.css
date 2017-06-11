@@ -49,13 +49,13 @@ nav{
 
 .main-image{
   width:74.25%;
-  height:70%;
+  height:80%;
   border:5px solid #ffffff;
   margin-bottom: -5%;
   position:absolute;
   transition: 1s ease;
   opacity: 0;
-  z-index: 5;
+  z-index: 1;
 }
 
 .main-img-btn{
@@ -63,10 +63,11 @@ nav{
   background-color: white;
   margin-left:48%;
   margin-right:-48%;
-  margin-top:55%;
+  margin-top:47.5%;
   display: inline-block;
-  z-index: 0;
+  z-index: 2;
   position:relative;
+  outline:none;
 }
 
 h1 {
@@ -113,6 +114,7 @@ h3 {
   text-align: center;
   background-color: #a0feba;
   border-radius: 5px;
+  outline:none;
 }
 
 #portfolio-section{
@@ -158,12 +160,14 @@ input{
   height:3em;
   width:25%;
   border-radius: 5px;
+  outline: none;
 }
 
 #email-submit-btn{
   height:3.5em;
   width:4%;
   border-radius: 5px;
+  outline:none;
 }
 
 footer{
