@@ -221,6 +221,10 @@ ul {
   list-style: none;
 }
 
+#contact-list-header{
+  margin-left:15%;
+}
+
 .social-button{
   height:20%;
   width:15%;
