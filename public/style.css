@@ -251,7 +251,13 @@ footer{
 .footer-div{
   width: 80%;
   min-width: 90px;
+  margin-left: 25%;
   font-size: 1em;
+}
+
+#footer-text-div{
+  width:120%;
+  margin-left: 0%;
 }
 
 ul {

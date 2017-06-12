@@ -3,6 +3,7 @@ var ImgView = function() {
 }
 
 ImgView.prototype = {
+
   nextImg: function(){
 
     var mainImages = document.getElementsByClassName('main-image');
